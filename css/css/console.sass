@@ -1,0 +1,38 @@
+$cont-scheme-txt:  rgba(255,255,255,255)
+$cont-scheme-bg:   rgba(160,160,160,32)
+$cont-scheme-brdr: rgba(200,200,200,196)
+.se-container
+    // Scheme
+    // ================
+    // -> Font/Text
+    color: $cont-scheme-txt
+    // ================
+    // -> Background
+    background-color: $cont-scheme-bg
+    // --> Border
+    border-bottom: solid 12.5px $cont-scheme-brdr
+    border-left: solid 12.5px $cont-scheme-brdr
+    border-right: solid 12.5px $cont-scheme-brdr
+    border-top: solid 25.0px $cont-scheme-brdr
+    // ================
+    // Dimensions
+    min-width:  100px
+    max-width:  600px
+    min-height: 175px
+    max-height: 1200px
+    // ================
+    // Visual Dynamic
+    display: block
+    // ================
+    // Title Bar
+    &:before
+        content: attr(data-title)
+        display: inline-block
+        position: relative
+        top: -22.5px
+        font: normal normal 500 22.5px "Lucida Console";
+    // =======================================
+    // > Console
+    & > .se-console
+    // > Input
+    & > .se-input
