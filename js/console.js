@@ -1,0 +1,1 @@
+var con,cons,i,j,len,len1,line,nec,ref,sec;for(cons=document.querySelectorAll(".se-container"),i=0,len=cons.length;len>i;i++){for(con=cons[i],sec=con.getElementsByClassName("se-console")[0],nec="",ref=sec.innerHTML.split("\n"),j=0,len1=ref.length;len1>j;j++)line=ref[j],nec+=line.replace(/^\/\/(.*)$/g,'<span class="h-comment">$1</span>'),nec+="\n";sec.innerHTML=nec}

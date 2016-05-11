@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><title>Source Engine Console CSS</title></head><body bg="1"><div data-title="Console" class="se-container"><div class="se-console">// This is a preview! Of a the console!
+// This is a preview! Of a the console!
 maxplayers set to 2
 Steam config directory: D:\Steam\steamapps\common\Half-Life 2 Deathmatch\platform\config
 CClientSteamContext logged on = 1
@@ -26,4 +26,4 @@ Can't use cheat cvar fog_start in multiplayer, unless the server has sv_cheats s
 Can't use cheat cvar fog_end in multiplayer, unless the server has sv_cheats set to 1.
 Can't use cheat cvar fog_startskybox in multiplayer, unless the server has sv_cheats set to 1.
 Can't use cheat cvar fog_endskybox in multiplayer, unless the server has sv_cheats set to 1.
-Can't use cheat cvar r_farz in multiplayer, unless the server has sv_cheats set to 1.</div></div><!-- vv Including: Main Stuff vv --><link rel="stylesheet" type="text/css" href="css/console.css"/><script src="js/console.js" type="text/javascript"></script><!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^ --></body></html>
+Can't use cheat cvar r_farz in multiplayer, unless the server has sv_cheats set to 1.

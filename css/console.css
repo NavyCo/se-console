@@ -1,3 +1,17 @@
-.se-container { color: white; background-color: #a0a0a0; border-bottom: solid 12.5px #c8c8c8; border-left: solid 12.5px #c8c8c8; border-right: solid 12.5px #c8c8c8; border-top: solid 25px #c8c8c8; min-width: 100px; max-width: 600px; min-height: 175px; max-height: 1200px; display: block; }
+.se-container { color: white; background-color: #a0a0a0; border-bottom: solid 12.5px #c8c8c8; border-left: solid 12.5px #c8c8c8; border-right: solid 12.5px #c8c8c8; border-top: solid 25px #c8c8c8; min-width: 100px; min-height: 200px; max-width: 600px; max-height: 1200px; display: block; }
 
 .se-container:before { content: attr(data-title); display: inline-block; position: relative; top: -22.5px; font: normal normal 500 22.5px "Lucida Console"; }
+
+.se-container > .se-console { min-width: 80px; min-height: 180px; max-width: 580px; max-height: 1180px; white-space: pre-wrap; word-break: break-word; }
+
+.se-container > .se-console > .h-cvar { color: #d0d5da; }
+
+.se-container > .se-console > .h-comm { color: #d0d5da; }
+
+.se-container > .se-console > .h-comment { color: #e0e0e0; }
+
+.se-container > .se-console > .h-comment:before { content: "//"; color: #d0d0d0; }
+
+.se-container, .se-container > .se-console, .se-container > .se-input { margin: 0 auto; width: auto; height: auto; }
+
+.se-container > .se-console, .se-container > .se-input { top: -17.5px; position: relative; }

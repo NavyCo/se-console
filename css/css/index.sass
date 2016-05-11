@@ -1,7 +1,0 @@
-$bgimgs: ()
-body
-    @for $i from 1 through length($bgimgs)
-        $img: nth($bgimgs,$i)
-        &[bg="#{$i}"]
-            background-size: cover
-            background-image: url($img)
